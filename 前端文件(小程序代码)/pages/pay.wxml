@@ -1,0 +1,7 @@
+<view class="container">
+
+   <text>支付0.01元</text>
+
+   <button plain="true" bindtap="pay">支 付</button>
+
+</view>

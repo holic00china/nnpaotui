@@ -1,0 +1,65 @@
+.faceimg
+{
+  width: 150rpx;
+height: 150rpx;
+border-radius: 150rpx;
+display: block;
+margin: 60rpx 40rpx;
+box-shadow: 0 0 10rpx #333;
+background: #FFF;
+position: relative;
+}
+.facemodule
+{
+  height: 270rpx;
+display: flex;
+}
+.nickname
+{
+  line-height: 270rpx;
+}
+.order-nav-group {
+    background: #FFF;
+    box-shadow: 0 0 3px #ccc;
+    display: flex;
+    margin: 15rpx 0;
+    padding: 15rpx 0;
+}
+.order-nav-item {
+  flex:1;
+font-size: 25rpx;
+text-align: center;
+border-right: 1rpx solid #f2f2f2;
+color: #333333;
+}
+.order-nav-item image {
+    width: 48rpx;
+    height: 48rpx;
+    display: block;
+    margin: 0 auto 10rpx;
+}
+
+.nav-module {
+width: 100%;
+background: #FFF;
+margin-bottom: 15rpx;
+}
+.nav-item {
+display: flex;
+justify-content: space-between;
+padding: 0 10rpx;
+font-size: 30rpx;
+color: #333;
+border-bottom: 1rpx solid #EDF2F5;
+height: 80rpx;
+line-height: 80rpx;
+
+}
+.nav-icon {
+width: 32rpx;
+height: 32rpx;
+margin: 0 10rpx;
+position: relative;
+top: 5rpx;
+
+}

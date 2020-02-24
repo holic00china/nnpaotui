@@ -1,0 +1,5 @@
+<!--pages/mine/wallet.wxml-->
+<image src="images/980.jpg" style="width:100%;height:150px;"></image>
+<view class="main"><view><text>余额（元）</text></view><view><text style="font-size:30px;">{{money}}.00</text></view></view>
+<view class="withdraw" bindtap="withdraw"><image src='images/pay.png'></image><view><text style="color:black;padding-left:10px" bindtap="withdraw">提现</text></view></view>
+<modal bindconfirm="confirm" hidden="true"><input type="text" placeholder="请输入支付宝账号" name='alipay'></input></modal>

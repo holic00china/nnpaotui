@@ -1,0 +1,22 @@
+.tab{float: left; width: 33.3333%;text-align: center;padding: 10rpx 0; }
+.topTabSwiper{border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; zoom: 1;}
+.topTabSwiper:after{content: ""; clear: both;display: block;}
+.tabBorer{border-bottom: 1px solid #f00; color: #f00;}
+.swiper{width: 100%;-webkit-overflow-scrolling: touch;}
+.swiper_con{width: 100%; height: auto; padding: 30rpx 20rpx;border: 1px solid #708090;}
+.btn
+{
+  width:60px;
+  bottom:50px;
+  float: right;
+  right: 50px;
+  position: relative;
+  font-size: 12px;
+}
+swiper{
+  overflow-y:scroll;
+}
+swiper-item
+{
+  overflow-y:scroll;
+}

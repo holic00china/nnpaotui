@@ -1,0 +1,6 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <textarea placeholder="请输入内容" maxlength="40" name='content'></textarea>
+<view style="width:100%;height:60px;position:fixed;bottom:0px;border-top:1px solid grey;">
+  <view class="text"><button class="btn"form-type="submit"role="button" type="primary">
+立即发表</button></view>
+</view></form>

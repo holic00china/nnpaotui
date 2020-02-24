@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<view >
+<!--<picker value="{{index}}" range="{{city}}" ><view style="position:absolute;left:10px;top:15px;z-index:99">{{city[index]}}</view></picker>-->
+ <picker bindchange="bindPickerChange" value="{{index}}" range="{{city}}">
+    <view class="picker" style="position:absolute;left:10px;top:15px;z-index:99">
+      {{city[index]}}
+    </view>
+  </picker>
+ <swiper class="swiper" autoplay="true" interval="5000" style="width:100%;height:230px">
+    <swiper-item>
+      <image src="../../images/banner.jpeg"  class="img"></image>
+    </swiper-item>
+   <swiper-item>
+      <image src="../../images/banner2.jpeg"  class="img"></image>
+    </swiper-item>
+  </swiper>
+  <view class="search"><input placeholder="{{placeholder}}" style="font-size:14px;width:100%;padding:0 0 0 20px"></input><button type="primary" size="default" style="font-size:14px;width:25%;line-height:20px">提交</button> </view>
+ <view style="width:100%;height:40px;margin-top:20px"> 
+    <view wx:for="{{item}}">
+    <image src="../../images/alart.png" style="width:25px;height:25px;padding:0 15px"></image>
+      <text style="line-height:20px">系统公告:{{item.title}}</text>
+    </view>
+    <view class="body">
+<!-- <view class="nav bc_white">
+  <view class="{{selected?'red':'default'}}" bindtap="selected">帮我取</view>
+  <view class="{{selected1?'red':'default'}}" bindtap="selected1">帮我买</view>
+  <view class="{{selected2?'red':'default'}}" bindtap="selected2">帮我送</view>
+ </view>-->
+ <view class="{{selected?'show':'hidden'}}">
+  <navigator url="../temple1/index1?area={{index}}" class="box">
+  <view class="n-img">
+  <image src="../../images/zbring.png"></image>
+  </view>
+  <view class="n-text">取快递</view>
+  </navigator>
+   <navigator url="../temple2/index2?area={{index}}" class="box">
+  <view class="n-img">
+  <image src="../../images/zbring.png"></image>
+  </view>
+  <view class="n-text">带东西</view>
+  </navigator>
+    <navigator url="../temple3/index3?area={{index}}" class="box">
+  <view class="n-img">
+  <image src="../../images/zbring.png"></image>
+  </view>
+  <view class="n-text">兼职发布</view>
+  </navigator>
+ </view>
+ <view class="{{selected1?'show':'hidden'}}">暂未推出 敬请期待</view>
+ <view class="{{selected2?'show':'hidden'}}">暂未推出 敬请期待</view>
+</view>
+</view>
+</view>
+<!--<button bindtap="processPay">支付测试</button>-->

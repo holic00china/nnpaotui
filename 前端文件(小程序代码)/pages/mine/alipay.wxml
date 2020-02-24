@@ -1,0 +1,5 @@
+<!--pages/mine/alipay.wxml-->
+<form bindsubmit="formSubmit">
+<input type="text" placeholder="请输入支付宝账号" name="ali" ></input>
+<button type="primary" form-type="submit">提交</button>
+</form>

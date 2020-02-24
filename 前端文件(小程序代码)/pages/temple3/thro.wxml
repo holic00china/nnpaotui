@@ -1,0 +1,1 @@
+<button bindtap='tap' data-key='abc'>tap</button>

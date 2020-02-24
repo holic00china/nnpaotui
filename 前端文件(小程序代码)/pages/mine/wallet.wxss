@@ -1,0 +1,22 @@
+text
+{
+  color:white;
+}
+.main
+{
+  width: 100%;
+  position: absolute;
+  top:50px;
+  left:70px;
+  font-size: 14px;
+}
+.withdraw
+{
+  width:160rpx;
+  height: 50rpx;
+}
+.withdraw image
+{
+  width:100rpx;
+  height: 100rpx;
+}

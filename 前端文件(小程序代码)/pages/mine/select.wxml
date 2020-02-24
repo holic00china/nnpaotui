@@ -1,0 +1,9 @@
+<view wx:for='{{record}}' class="main">
+<view>标题：{{item.title}}</view>
+<view>地址：{{item.arriveAddress}}</view>
+<view>代码：{{item.getcode}}</view>
+<view>下单人:{{item.username}}</view>
+<view>联系电话：{{item.tel}}</view>
+<!--<view>跑腿员：{{item.runname}}</view>-->
+<!--<view>跑腿员电话：{{item.etel}}</view>-->
+</view>

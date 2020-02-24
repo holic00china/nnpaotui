@@ -1,0 +1,7 @@
+/* pages/mine/join.wxss */
+input
+{
+  border-bottom: 1px solid black;
+  padding-left: 15px;
+  height:40px;
+}

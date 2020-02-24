@@ -1,0 +1,10 @@
+<!--pages/temple3/index3.wxml-->
+<image src="../../images/t2.jpg"></image>
+<image src="../../images/border20.png" style="display: flex;align-items: center;justify-content: center;width:70%;height:80px;padding:0 65px;"></image>
+<scroll-view style="scroll-y:true;margin:10px;5px;">
+<view wx:for="{{content}}">
+<image src="../../images/wolf.png" style="width:15px;height:15px"></image>
+{{item}}
+</view>
+</scroll-view>
+<view style="position:absolute;right:30px;top:70%"><navigator url="bbs"><image src="../../images/write.png"style="width:30px;height:30px;"></image><view>我也要发</view></navigator></view>

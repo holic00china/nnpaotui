@@ -1,0 +1,4 @@
+<!--pages/index/allow.wxml-->
+<modal style="display:{{show}};" no-cancel='false' ><view style="z-index:999;">
+<button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+<view wx:else>请升级微信版本</view></view></modal>

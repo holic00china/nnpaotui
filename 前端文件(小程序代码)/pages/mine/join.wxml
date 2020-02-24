@@ -1,0 +1,7 @@
+<!--pages/mine/join.wxml-->
+<form bindsubmit="formSubmit">
+<input type="text" placeholder="请输入电话号码" name='tel' maxlength="11"></input>
+<input type="text" placeholder="请输入姓名" name='name'></input>
+<input type="idcard" placeholder="身份证号码" name='id'></input>
+<button type="primary" form-type="submit">提交验证</button>
+</form>
